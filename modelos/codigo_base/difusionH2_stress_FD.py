@@ -120,7 +120,7 @@ for j in range(nt+1):
     HStress_t[:,j]=sigma_t
     HStrain_r[:,j]=epsi_r
     HStrain_t[:,j]=epsi_t
- 
+
     
 #grafica Concentracion vs r para cada tiempo    
 plt.figure()
