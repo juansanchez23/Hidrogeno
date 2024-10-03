@@ -167,7 +167,7 @@ plt.figure()
 for i in range(0,nt+1,1):
     plt.plot(r*1e3,HStress_r[:,i],label=f't={i*dt:.1f} years') 
 plt.xlabel('r [mm]')
-plt.ylabel('$\sigma_r$ [Pa]') 
+plt.ylabel(r$\sigma_r$ [Pa]') 
 plt.legend(loc='upper left', bbox_to_anchor=(1, 1))
 
 #grafica sigma_t vs radio para cada tiempo
